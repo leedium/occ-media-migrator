@@ -28,10 +28,13 @@
     "fs-extra": "^7.0.1",
     "got": "^9.6.0",
     "imagemin": "^6.1.0",
+    "imagemin-gifsicle": "^6.0.1",
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^7.0.0",
-    "nodemon": "^1.18.10"
+    "install": "^0.12.2",
+    "nodemon": "^1.18.10",
+    "npm": "^6.9.0"
   },
   "homepage": "https://github.com/leedium/occ-media-migrator#readme"
 }
