@@ -316,7 +316,7 @@ exports.main = function (argv) {
             `Tool to transfer images across mutiple OCC instances\n `
         )
         .usage(
-            "omu -s [servers] -t [keys] -d [imagePath] -u [uploadtype]",
+            "-s [sourceserver] -t [keys] -d [imagePath] -u [uploadtype]",
             ""
         )
         //
@@ -326,29 +326,29 @@ exports.main = function (argv) {
         )
         //
         .option(
-            "-s, --sourceserverkey <sourceserverkey>",
+            "-t, --sourceserverkey <sourceserverkey>",
             "Source server key"
         )
         //
         .option(
-            "-s, --targetservers <items>",
+            "-u, --targetservers <items>",
             "Comma delimited string with the server definitions ie: server1,server2,serverN",
             list
         ).option(
-        "-t, --targetserverkeys <items>",
+        "-v, --targetserverkeys <items>",
         "Occ Admin api key for server ie: [server key source],[server key target]",
         list
     )
         .option(
-            "-d, --imagepath <imagepath>",
+            "-w, --imagepath <imagepath>",
             "path to folder to generate the image zipfile"
         )
         .option(
-            "-u, --imagetype <uploadtype>",
+            "-x, --imagetype <imagetype>",
             "Upload Type < general, collections, product >"
         )
         .option(
-            "-v, --optimize <n>",
+            "-y, --optimize <n>",
             "optimizes images before packaging, (0 - 1)",
             parseFloat
         )
