@@ -1,13 +1,12 @@
 # occ-media-uploader for Oracle Commerce Cloud
 Tool to download all images from source OCC instance, optimize, package, and deploy media to multiple targeted OCC instances
 
-### * Max file size per zip in 1GB
+### * Max file size per zip in 1GB   
 
 
-#### Version v1.1.0
+#### Version v1.1.0   
 
-## Chnagelog
-
+## Chnagelog   
 v1.0.0
 - image download from source
 - image zip 
@@ -18,13 +17,12 @@ v1.0.0
 npm i -g
 ```
 
-## Instructions
+## Instructions   
 
 ```
 Usage: omm -s [sourceserver] -t [keys] -d [imagePath] -u [uploadtype]
 
 Tool to transfer images across mutiple OCC instances
- 
 
 Options:
   -V, --version                            output the version number
