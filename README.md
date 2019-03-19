@@ -1,4 +1,4 @@
-# occ-media-uploader for Oracle Commerce Cloud
+# occ-media-uploader for [Oracle Commerce Cloud](https://cloud.oracle.com/en_US/commerce-cloud "Oracle Commerce Cloud")
 Tool to download all images from source OCC instance, optimize, package, and deploy media to multiple targeted OCC instances
 
 ### * Max file size per zip in 1GB   
@@ -46,6 +46,9 @@ omm  --sourceserver {SOURCE_SERVER}
      --imagepath {FOLDER} 
      --imagetype [general | collections | products]
 ```
+## Related   
+ [occ-media-uploader](https://github.com/leedium/occ-media-uploader "occ-media-uploader")
+ [occ-instance-migrator](https://github.com/leedium/occ-instance-migrator "occ-instance-migrator")
 
 
 <br/><br/><br/>

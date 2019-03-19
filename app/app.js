@@ -109,7 +109,7 @@ const start = async (program) => {
 
 
             await downloadImages(items);
-            await uploadImages();
+            // await uploadImages();
 
 
         } catch (err) {
