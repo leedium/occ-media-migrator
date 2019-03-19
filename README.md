@@ -47,8 +47,8 @@ omm  --sourceserver {SOURCE_SERVER}
      --imagetype [general | collections | products]
 ```
 ## Related   
- [occ-media-uploader](https://github.com/leedium/occ-media-uploader "occ-media-uploader")
- [occ-instance-migrator](https://github.com/leedium/occ-instance-migrator "occ-instance-migrator")
+ [occ-media-uploader](https://github.com/leedium/occ-media-uploader "occ-media-uploader") .  
+ [occ-instance-migrator](https://github.com/leedium/occ-instance-migrator "occ-instance-migrator")   
 
 
 <br/><br/><br/>
