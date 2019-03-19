@@ -2,6 +2,9 @@
   "name": "occ-media-migrator",
   "version": "1.0.0",
   "description": "Tool to transfer media assets from one instance to another",
+  "bin": {
+    "omm": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +17,24 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/leedium/occ-media-migrator/issues"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "axios": "^0.18.0",
+    "busboy": "^0.3.0",
+    "commander": "^2.19.0",
+    "download": "^7.1.0",
+    "filehound": "^1.17.0",
+    "fs-extra": "^7.0.1",
+    "got": "^9.6.0",
+    "imagemin": "^6.1.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^7.0.0",
+    "install": "^0.12.2",
+    "nodemon": "^1.18.10",
+    "npm": "^6.9.0"
   },
   "homepage": "https://github.com/leedium/occ-media-migrator#readme"
 }
