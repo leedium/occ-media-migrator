@@ -1,4 +1,4 @@
-# occ-media-uploader for [Oracle Commerce Cloud](https://cloud.oracle.com/en_US/commerce-cloud "Oracle Commerce Cloud")
+# occ-media-migrator for [Oracle Commerce Cloud](https://cloud.oracle.com/en_US/commerce-cloud "Oracle Commerce Cloud")
 Tool to download all images from source OCC instance, optimize, package, and deploy media to multiple targeted OCC instances
 
 ### * Max file size per zip in 1GB   
