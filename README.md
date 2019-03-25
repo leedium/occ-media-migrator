@@ -6,7 +6,7 @@ Tool to download all images from source OCC instance, optimize, package, and dep
 
 #### Version v1.1.0   
 
-## Chnagelog   
+## Changelog   
 v1.0.0
 - image download from source
 - image zip 
